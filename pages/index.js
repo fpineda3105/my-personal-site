@@ -1,65 +1,61 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import SideBar from '../components/sideBar'
+import Footer from '../components/footer'
+import PostPreview from '../components/postPreview'
 
-export default function Home() {
+import  { getAllPostsData } from '../lib/posts'
+
+export default function Home( { allPostsData } ) {
   return (
-    <div className={styles.container}>
+    <div id="layout" className="pure-g">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Fernando Pineda</title>
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge"></meta>
+        <link rel="icon" href="/favicon.png" />        
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <SideBar />
+        <div className="content pure-u-1 pure-u-md-3-4">
+            <div>                
+                <div className="posts">
+                    <h1 className="content-subhead">Post Fijado</h1>                    
+                    <section className="post">
+                        <header className="post-header">                                
+                            <h2 className="post-title">Introducing Pure</h2>    
+                            <p className="post-meta">
+                                By <a href="#" className="post-author">Fernando Pineda</a> under <a className="post-category post-category-design" href="#">CSS</a> <a className="post-category post-category-pure" href="#">Pure</a>
+                            </p>
+                        </header>    
+                        <div className="post-description">
+                            <p>
+                                Yesterday at CSSConf, we launched Pure – a new CSS library. Phew! Here are the <a href="https://speakerdeck.com/tilomitra/pure-bliss">slides from the presentation</a>. Although it looks pretty minimalist, we’ve been working on Pure for several months. After many iterations, we have released Pure as a set of small, responsive, CSS modules that you can use in every web project.
+                            </p>
+                        </div>
+                    </section>
+                </div>
+    
+                <div className="posts">
+                    <h1 className="content-subhead">Posts Recientes</h1>
+                    {
+                      allPostsData.map(post => (
+                        <PostPreview key={post.id} post={post}/>                              
+                      ))
+                    }                                                                                           
+                </div>
+                
+                <Footer />
+                
+            </div>
         </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+    </div>                
   )
+}
+
+export async function getStaticProps() {
+  const allPostsData = await getAllPostsData();   
+  return {
+    props: {
+       allPostsData
+    }
+  }
 }
