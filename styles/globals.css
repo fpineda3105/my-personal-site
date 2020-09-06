@@ -4,9 +4,12 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+* {
+  font-family: 'Kumbh Sans', sans-serif;
+}
 a {
-  text-decoration: none;
-  color: rgb(61, 146, 201);
+  text-decoration: none;  
 }
 a:hover,
 a:focus {
@@ -38,7 +41,7 @@ h3 {
 }
 
 .sidebar {
-  background: rgb(0, 71, 136);
+  background:#00334e;
   /* 24, 148, 160 */
   color: #fff;
 }
@@ -48,12 +51,12 @@ h3 {
   margin: 0;
 }
 .brand-title {
-  
-  text-transform: uppercase;
+  color: #f6f5f5;
+
 }
 .brand-tagline {
   font-weight: 300;
-  color: 	#81e5fd;
+  color: 	grey;
 }
 
 .nav-list {
@@ -69,7 +72,7 @@ h3 {
 .nav-item a {
   background: transparent;
   border: 2px solid rgb(176, 202, 219);
-  color: #fff;
+  color: #ee6f57;
   margin-top: 1em;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -109,7 +112,7 @@ h3 {
   margin-left: 1em;
 }
 .post-description {
-  font-family: Georgia, "Cambria", serif;
+  
   color: #444;
   line-height: 1.8em;
 }
