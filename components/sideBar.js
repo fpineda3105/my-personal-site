@@ -4,7 +4,7 @@ function SideBar() {
         <div className="sidebar pure-u-1 pure-u-md-1-4">
             <div className="header">
                 <div className="profile">
-                    <img src="/profile.png" alt="" />
+                    <img src="/profile.webp" alt="" />
                 </div>                
                 <h1 className="brand-title">Fernando Pineda</h1>
                 <h2 className="brand-tagline">Software engineer</h2>
