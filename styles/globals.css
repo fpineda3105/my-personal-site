@@ -176,14 +176,15 @@ h3 {
   background: none;
 }
 
-@media (max-width: 320px) { 
+@media (max-width: 480px) { 
   .nav-list {
     display: inline-grid;
     zoom: 1;  
   }
 
   .about-me {
-    margin-top: 0em;
+    margin-top: 0em;   
+    margin-bottom: 0em;
   }
 }
 
@@ -191,13 +192,10 @@ h3 {
   .nav-list {
     display: inline-flex;    
   }
-  
-  .nav-item {
-    width: 60%;
-  }
 
   .about-me {
-    margin-top: 0em;
+    margin-top: 0em;   
+    margin-bottom: 0em;
   }
 }
 
