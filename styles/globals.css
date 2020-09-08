@@ -33,7 +33,7 @@ h3 {
 .header {
   text-align: center;
   top: auto;
-  margin: 2em auto;
+  margin: 1em 0em 0em auto;
 }
 
 .profile {
@@ -62,6 +62,24 @@ h3 {
 .brand-tagline {
   font-weight: 300;
   color: 	grey;
+}
+.nav-container {
+  text-align: center;
+  margin-bottom: 1em;
+}
+.nav-social {  
+  padding: 0;
+  list-style: none;
+  display: inline-flex;
+}
+
+.nav-social-item {
+  margin-right: 0.7em;
+}
+
+.social-item {
+  background: transparent; 
+  color: rgb(254, 254, 255);
 }
 
 .nav-list {
@@ -185,7 +203,7 @@ h3 {
   .about-me {
     margin-top: 0em;   
     margin-bottom: 0em;
-  }
+  }  
 }
 
 @media (min-width: 480px) and (max-width: 760px) { 
@@ -197,6 +215,7 @@ h3 {
     margin-top: 0em;   
     margin-bottom: 0em;
   }
+  
 }
 
 @media (min-width: 770px) {
