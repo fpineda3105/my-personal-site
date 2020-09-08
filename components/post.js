@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Footer from '../components/footer'
 
 export default function PostComponent( {post}) {
     return (
@@ -19,7 +18,7 @@ export default function PostComponent( {post}) {
             </div>
         
             <Link href="/">
-                        <a>← Back to home</a>
+                        <a>← volver</a>
                     </Link>
         </div>    
 
