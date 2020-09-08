@@ -33,16 +33,21 @@ h3 {
 .header {
   text-align: center;
   top: auto;
-  margin: 3em auto;
+  margin: 2em auto;
 }
 
 .profile {
   text-align: center;
 }
 
+.profile-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
 .sidebar {
-  background:#00334e;
-  /* 24, 148, 160 */
+  background:#00334e;  
   color: #fff;
 }
 
@@ -63,20 +68,21 @@ h3 {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: inline-grid;
 }
-.nav-item {
-  display: inline-block;
-  *display: inline;
-  zoom: 1;
+.nav-item {  
+  width: 100%;
+  zoom: 1;  
 }
+
 .nav-item a {
   background: transparent;
   border: 2px solid rgb(176, 202, 219);
   color: #ee6f57;
   margin-top: 1em;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  letter-spacing: 0.05em;  
   font-size: 85%;
+  width: 100%;
 }
 .nav-item a:hover,
 .nav-item a:focus {
@@ -111,8 +117,7 @@ h3 {
   float: right;
   margin-left: 1em;
 }
-.post-description {
-  
+.post-description {  
   color: #444;
   line-height: 1.8em;
 }
@@ -152,6 +157,13 @@ h3 {
   text-shadow: 0 1px 1px #333;
 }
 
+.about-me {  
+  color: #444;
+  line-height: 1.8em;
+  margin-top: 5em;
+  margin-bottom: 3em;
+}
+
 .footer {
   padding: 1em 0;
 }
@@ -164,7 +176,32 @@ h3 {
   background: none;
 }
 
-@media (min-width: 48em) {
+@media (max-width: 320px) { 
+  .nav-list {
+    display: inline-grid;
+    zoom: 1;  
+  }
+
+  .about-me {
+    margin-top: 0em;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 760px) { 
+  .nav-list {
+    display: inline-flex;    
+  }
+  
+  .nav-item {
+    width: 60%;
+  }
+
+  .about-me {
+    margin-top: 0em;
+  }
+}
+
+@media (min-width: 770px) {
   .content {
       padding: 2em 3em 0;
       margin-left: 30%;

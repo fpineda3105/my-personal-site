@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Layout, {siteTitle} from '../components/layout'
+import {siteTitle} from '../components/layout'
 import BlogListPreview from '../components/blogListPreview'
 
 import  { getAllPostsData } from '../lib/posts'
@@ -19,7 +19,7 @@ export async function getStaticProps() {
   const allPostsData = await getAllPostsData();   
   return {
     props: {
-       allPostsData
+       allPostsData       
     }
   }
 }
