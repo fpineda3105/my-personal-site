@@ -1,4 +1,3 @@
-import Footer from './footer'
 import PostPreview from './postPreview'
 
 function BlogListPreview( {allPosts}) {
@@ -28,9 +27,7 @@ function BlogListPreview( {allPosts}) {
                         <PostPreview key={post.id} post={post}/>                              
                       ))
                     }                                                                                           
-                </div>
-                
-                <Footer />
+                </div>                                
                 
             </div>        
     );    
