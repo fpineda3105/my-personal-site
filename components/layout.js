@@ -1,11 +1,9 @@
 import Head from 'next/head'
-import SideBar from '../components/sideBar'
-
+import SideBar from './sidebar/sideBar'
 
 export const siteTitle = 'Fernando Pineda';
 
-export default function Layout({children}) { 
-    
+export default function Layout({children}) {     
     return (        
         <div id="layout" className="pure-g">
             <Head>            

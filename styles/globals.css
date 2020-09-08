@@ -66,20 +66,26 @@ h3 {
 .nav-container {
   text-align: center;
   margin-bottom: 1em;
+  display: flex;
+  flex-flow: column;
 }
 .nav-social {  
   padding: 0;
-  list-style: none;
-  display: inline-flex;
+  list-style: none;  
+  display: flex;
+  flex-flow: row;  
+  justify-content: space-evenly;
+  margin-bottom: 0;
 }
 
 .nav-social-item {
-  margin-right: 0.7em;
+  font-size: 2em;
 }
 
-.social-item {
+.social-item {  
   background: transparent; 
   color: rgb(254, 254, 255);
+  zoom: 1; 
 }
 
 .nav-list {
@@ -89,7 +95,7 @@ h3 {
   display: inline-grid;
 }
 .nav-item {  
-  width: 100%;
+  min-width: 8em;
   zoom: 1;  
 }
 

@@ -1,8 +1,11 @@
+import "@fortawesome/fontawesome-svg-core/styles.css"
 import '../styles/globals.css'
 import 'purecss/build/pure-min.css'
 import 'purecss/build/grids-responsive-min.css'
-import '@fortawesome/fontawesome-free/js/all.min.js'
 import Layout from '../components/layout'
+import { config } from "@fortawesome/fontawesome-svg-core"
+
+config.autoAddCss = false;
 
 function MyApp({ Component, pageProps }) {
   return (

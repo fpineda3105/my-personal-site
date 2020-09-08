@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-export default function About({props}) {
+export default function About() {
     return (
         <div className="content pure-u-1 pure-u-md-3-4">
              <Head>
@@ -24,11 +24,4 @@ export default function About({props}) {
     )
 }
 
-export async function getInitialProps() {     
-    return {
-      props: {
-         page : "about"
-      }
-    }
-  }
-  
+
