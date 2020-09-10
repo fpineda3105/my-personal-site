@@ -7,7 +7,9 @@ export default function Post( {post} ) {
     return ( 
         <div className="content pure-u-1 pure-u-md-3-4">
             <Head>
-                <title>{post.meta.title}</title>
+                <meta property="og:type" content="article" />
+                <meta property="og:title" content={post.meta.title} />
+                <title>{post.meta.title}</title>                
             </Head>              
             <PostComponent post={post}/>  
         </div>                       
