@@ -20,7 +20,7 @@ La mecánica que en realidad no me gustaba mucho y en una oportunidad le dije qu
 > varados porque no sabían cambiar un caucho (llanta o neumático).  
 > ¿tú también quieres ser un ingeniero, no?*
 
-Mi padre a sus 8 años era muy pobre y vivía con 9 hermanos y mi abuela, trabajaba limpiando botas y vendiendo el diario junto a sus hermanos mayores.
+Afortunadamente y gracias a él, tuve la oportunidad de estudiar y que nunca nos faltase nada. El no tuvo las misma suerte, me contaba que desde los 8 años salía junto a sus hermanos mayores a trabajar, limpiando botas y vendiendo el diario para ayudar a su madre y hermanos más pequeños ya que eran muy pobres.
 
 <div class="post-container-image">
 <img src="/images/infancia_con_macgyver/limpiabotas_vzla_50.jpg" alt="Caracas Limpiabotas años 50's" class="post-medium-image">
