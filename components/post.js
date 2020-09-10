@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Date from '../components/date'
 
 export default function PostComponent( {post}) {
     return (
@@ -8,7 +9,11 @@ export default function PostComponent( {post}) {
                     <header className="post-header">                 
                         <h2 className="post-title">{post.meta.title}</h2>                                
                         <p className="post-meta">
-                            By <a className="post-author" href="#">Fernando Pineda</a> under <a className="post-category post-category-js" href="#">JavaScript</a>
+                            Por <a className="post-author" href="#">Fer</a> <Date dateString={post.meta.date} /> en {post.meta.tags.split(',').map(
+                                tag => (
+                                <a key={tag} className="post-category" href="#">{tag}</a>
+                                )
+                            )}
                         </p>
                     </header>
                     <div className="post-description">

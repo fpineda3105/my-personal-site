@@ -129,10 +129,10 @@ h3 {
 }
 
 .post {
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 .post-title {
-  font-size: 2em;
+  font-size: 1.4em;
   color: #222;
   margin-bottom: 0.2em;
 }
@@ -154,26 +154,29 @@ h3 {
 .post-category {
   margin: 0 0.1em;
   padding: 0.3em 1em;
-  color: #fff;
-  background: #999;
+  color: #00334e;  
   font-size: 80%;
-}
-  .post-category-design {
-      background: #5aba59;
-  }
-  .post-category-pure {
-      background: #4d85d1;
-  }
-  .post-category-yui {
-      background: #8156a7;
-  }
-  .post-category-js {
-      background: #df2d4f;
-  }
+  background: #eeeded; 
+  border-radius: 2em/5em;
+}  
 
-.post-images {
-  margin: 1em 0;
+.post-big-image {
+  max-width: 500px;
 }
+
+.post-container-image {
+  text-align: center;
+}
+
+.post-medium-image {
+  max-width: 320px;  
+}
+.post-image-footer {
+  margin-top: -0.4em;
+  font-size: 0.7em;
+  line-height: normal;
+}
+
 .post-image-meta {
   margin-top: -3.5em;
   margin-left: 1em;
@@ -209,7 +212,21 @@ h3 {
   .about-me {
     margin-top: 0em;   
     margin-bottom: 0em;
-  }  
+  }
+
+  .post-medium-image {
+    max-width: 100%;
+  }
+
+  .post-big-image {
+    max-width: 100%;
+  }
+
+  .post-description {  
+    color: #444;
+    line-height: 1.6em;
+  }
+    
 }
 
 @media (min-width: 480px) and (max-width: 760px) { 
@@ -244,4 +261,11 @@ h3 {
   .footer {
       text-align: center;
   }
+
+  .post-title {
+    font-size: 1.7em;
+    color: #222;
+    margin-bottom: 0.2em;
+  }
+
 }
