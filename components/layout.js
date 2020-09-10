@@ -9,8 +9,7 @@ export default function Layout({children}) {
             <Head>            
                 <meta name="og:title" content={siteTitle} />
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge"></meta>
-                <link rel="icon" href="/favicon.png" />
-                
+                <link rel="icon" href="/favicon.png" />                
             </Head>
             <SideBar />
             {children}                                 
