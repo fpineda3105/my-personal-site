@@ -41,7 +41,7 @@ Cuando crecí supe que me gustaban los autos clásicos, él tuvo un *Ford Fairmo
 
 De **MacGyver** aprendí muchas cosas de las cuales me hice consciente e internalicé después de bastante tiempo. Cuando me encuentro con algún problema siempre busco la forma de resolverlo con mis propios medios a menos que se escape de mis habilidades, conocimientos e ingenio. Me gustaría devolver el tiempo atrás y revivir esos momentos en los que lo ayudaba a resolver algún problema, hoy día tenemos más de 2 años y medio alejados, debido a la situación conocida de nuestro país (Venezuela) pero tengo la certeza de que pronto nos volveremos a ver. Todos tenemos una historia, hoy quise compartir un poco de la mía, ¿cuál es tu historia? ¿también tienes o tuviste a un **MacGyver**?
 
-Les invito a leer el artículo que me motivó a escribir este artículo [4 mil palabras de Jeff Bezos][jeff_bezos].
+Por último, les invito a leer el artículo que leí hace unas semanas y me motivó a escribir este [4 mil palabras de Jeff Bezos][jeff_bezos] creador de Amazon.
 
 [macgyver]: <https://es.wikipedia.org/wiki/MacGyver>
 [jeff_bezos]: <https://www.infobae.com/america/eeuu/2020/07/30/jeff-bezos-publico-su-declaracion-de-4000-palabras-ante-el-congreso-de-estados-unidos-una-clase-magistral-sobre-inteligencia-emocional/>
