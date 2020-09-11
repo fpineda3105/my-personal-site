@@ -9,6 +9,7 @@ export default function Post( {post} ) {
             <Head>
                 <meta property="og:type" content="article" />
                 <meta property="og:title" content={post.meta.title} />
+                <meta name="description" content={post.meta.description}></meta>
                 <title>{post.meta.title}</title>                
             </Head>              
             <PostComponent post={post}/>  
