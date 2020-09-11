@@ -3,6 +3,7 @@ title: 'Una infancia junto a MacGyver'
 date: '2020-09-10'
 tags: 'personal'
 type: 'fixed'
+description: 'Contando historias de mi infancia y admiración hacia mi padre y su ingenio rudimentario'
 preview: 'Imagina por unos segundos a tu hijo de 10 años llegar un día a casa con una cuerda sujetando una iguana al otro extremo. ¿Qué harías?; bueno, mis padres no se alarmaron porque continuamente estaba haciendo este tipo de locuras...'
 ---
 Imagina por unos segundos a tu hijo de 10 años llegar un día a casa con una cuerda sujetando una iguana al otro extremo. ¿Qué harías?; bueno, mis padres no se alarmaron porque continuamente estaba haciendo este tipo de locuras.
