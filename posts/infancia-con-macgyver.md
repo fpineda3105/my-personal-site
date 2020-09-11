@@ -13,7 +13,7 @@ Imagina por unos segundos a tu hijo de 10 años llegar un día a casa con una cu
 
 En mi infancia hice muchas travesuras y pasé mucho tiempo en los alrededores de mi hogar corriendo y jugando, en la montaña que se aprecia en la foto donde junto con mis amigos íbamos a *"cazar"*  iguanas, lagartijas, culebras, etc. pero también aprendí de mecánica, justo en la calle que se ve en la foto junto a la vereda estuve tiempo suficiente con mi padre lleno de grasa, todo sucio *jajaja* ayudándolo a trabajar en sus carros.
 
-La mecánica que en realidad no me gustaba mucho y en una oportunidad le dije que no iba a tener la necesidad de hacerlo cuando estuviera grande porque iba a ser un **Ingeniero** y podría pagar por eso a lo que me respondió:
+La mecánica, que en realidad no me gustaba mucho y en una oportunidad le dije que no iba a tener la necesidad de hacerlo cuando estuviera grande, porque iba a ser un **Ingeniero** y podría pagar por eso; a lo que me respondió:
 
 > *¡mira Fernandito!, 
 > yo me he encontrado ingenieros en la calle, en plena vía
@@ -29,7 +29,7 @@ Afortunadamente y gracias a él, tuve la oportunidad de estudiar y que nunca nos
 
 A medida que fue creciendo aprendió diversos oficios, se unió al ejército donde aprendió también a cocinar (que le serviría luego para enseñar a mi madre), pudo estudiar por las noches en el colegio y obtener el 6to grado, posteriormente ingresó a la Electricidad de Caracas donde se formaría y desempeñaría como electricista durante 25 años de servicio; al ser jubilado se dedicó a hacer transporte escolar de niños con alguna discapacidad (a veces lo acompañaba en su rutina). Así pude ver que a temprana edad él tuvo que desarrollar su ingenio de una manera rudimentaria y trabajar duro para poder llevar el sustento a casa.
 
-Así es como crecí aprendiendo de todo un poco, él solía y aún suele hacer todas las reparaciones del hogar (electricidad, carpintería, albañilería, plomería, mecánica, etc), siempre con su propias manos e ingenio. Una anécodta graciosa es que esas características llevaron un día a que sus amigos lo apodaran [**MacGyver**
+Así es como crecí aprendiendo de todo un poco, él solía y aún suele hacer todas las reparaciones del hogar (electricidad, carpintería, albañilería, plomería, mecánica, etc), siempre con su propias manos e ingenio. Una anécdota graciosa es que esas características llevaron un día a que sus amigos lo apodaran [**MacGyver**
 ][macgyver], para los que no recuerdan o conocen, fue una serie televisiva de los 80's y 90's  que trataba de un personaje dotado de alta inteligencia y conocimiento técnico que resolvía cualquier problema utilizando los pocos recursos a su alcance. Cuando nos encontrábamos en alguna de éstas situaciones, recuerdo que me decía algo como:
 
 > *¡fernandito!, "ve y busca un pedacito de alambre*",  
