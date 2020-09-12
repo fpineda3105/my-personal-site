@@ -17,11 +17,11 @@ En mi infancia hice muchas travesuras y pasé mucho tiempo en los alrededores de
 La mecánica, que en realidad no me gustaba mucho y en una oportunidad le dije que no iba a tener la necesidad de hacerlo cuando estuviera grande, porque iba a ser un **Ingeniero** y podría pagar por eso; a lo que me respondió:
 
 > *¡mira Fernandito!, 
-> yo me he encontrado ingenieros en la calle, en plena vía
+> yo me he encontrado ingenieros en la calle, en plena vía  
 > varados porque no sabían cambiar un caucho (llanta o neumático).  
 > ¿tú también quieres ser un ingeniero, no?*
 
-Afortunadamente y gracias a él, tuve la oportunidad de estudiar y que nunca nos faltase nada. El no tuvo las misma suerte, me contaba que desde los 8 años salía junto a sus hermanos mayores a trabajar, limpiando botas y vendiendo el diario para ayudar a su madre y hermanos más pequeños ya que eran muy pobres.
+Afortunadamente y gracias a él, tuve la oportunidad de estudiar y que nunca nos faltase nada. El no tuvo la misma suerte, me contaba que desde los 8 años salía junto a sus hermanos mayores a trabajar, limpiando botas y vendiendo el diario para ayudar a su madre y hermanos más pequeños ya que eran muy pobres.
 
 <div class="post-container-image">
 <img src="/images/infancia_con_macgyver/limpiabotas_vzla_50.jpg" alt="Caracas Limpiabotas años 50's" class="post-medium-image">
