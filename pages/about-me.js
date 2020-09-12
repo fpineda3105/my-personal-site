@@ -10,7 +10,7 @@ export default function About() {
             <div className="about-me">
                 <p >
                     Hola, soy un apasionado y pragmático constructor de software en constante aprendizaje con 8 años de experiencia en distintos proyectos.
-                    He participado en la creación de software de principio a fin, de API's y siempre pensando en un buen diseño. 
+                    He liderado equipos de desarrollo y participado en la creación de software de principio a fin, de API's y siempre pensando en un buen diseño. 
                     Inclinación hacia la arquitectura e implementación a nivel de Backend pero también poseo conocimientos de tecnologías FrontEnd.
                     He creado flujos de integración continua, liberación y despliegue de componentes utilizando contenedores (Docker) y orquestador de contenedores (Kubernetes) 
                     en ambientes Cloud (Azure / IBM Cloud).
