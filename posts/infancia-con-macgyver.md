@@ -9,7 +9,7 @@ preview: 'Imagina por unos segundos a tu hijo de 10 años llegar un día a casa 
 Imagina por unos segundos a tu hijo de 10 años llegar un día a casa con una cuerda sujetando una iguana al otro extremo. ¿Qué harías?; bueno, mis padres no se alarmaron porque continuamente estaba haciendo este tipo de locuras.
 
 <div class="post-container-image">
-<img src="/images/infancia_con_macgyver/Casa_.jpg" alt="Casalta 3" class="post-big-image">
+<img src="/images/infancia_con_macgyver/Casa_.webp" alt="Casalta 3" class="post-big-image">
 </div>
 
 En mi infancia hice muchas travesuras y pasé mucho tiempo en los alrededores de mi hogar corriendo y jugando, en la montaña que se aprecia en la foto donde junto con mis amigos íbamos a *"cazar"*  iguanas, lagartijas, culebras, etc. pero también aprendí de mecánica, justo en la calle que se ve en la foto junto a la vereda estuve tiempo suficiente con mi padre lleno de grasa, todo sucio *jajaja* ayudándolo a trabajar en sus carros.
