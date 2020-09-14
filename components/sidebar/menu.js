@@ -16,7 +16,7 @@ export default function Menu() {
                 { currentPage !== "/about-me" ? (                          
                     <li className="nav-item">
                         <Link href="/about-me" >                        
-                            <a className="pure-button">Acerca de mí</a>  
+                            <a className="pure-button" alt="about me" title="acerca de mí">Acerca de mí</a>  
                         </Link>                                                                                                     
                     </li>                               
                 ) : null }                                                                                                                                                
