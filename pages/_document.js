@@ -25,8 +25,7 @@ export default class CustomDocument extends Document {
         <Head>         
           {/* We only want to add the scripts if in production */}
           {isProduction && (
-            <Fragment>
-              <script type="text/javascript" async src="https://www.google-analytics.com/analytics.js" />
+            <Fragment>              
               {/* Global Site Tag (gtag.js) - Google Analytics */}
               <script
                 async
