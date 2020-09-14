@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://fpinedadev.com/sitemap.xml
