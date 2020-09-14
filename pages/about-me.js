@@ -1,11 +1,12 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import {BASE_URI} from '../components/utils/meta'
 
-export default function About() {
+export default function About( {meta} ) {
     return (
         <div className="content pure-u-1 pure-u-md-3-4">
              <Head>
-                <title>Acerca de mí</title>
+                <title>{meta.titlePage}</title>                
             </Head>  
             <div className="about-me">
                 <p >
@@ -27,5 +28,19 @@ export default function About() {
         </div>
     )
 }
+
+
+export async function getStaticProps() {
+    return {
+        props: {
+            meta : {
+                titlePage : "About me | Fernando Pineda",
+                title: "About",
+                url: BASE_URI + "/about-me",                
+            }
+        }
+    }
+}
+
 
 

@@ -9,7 +9,7 @@ preview: 'Imagina por unos segundos a tu hijo de 10 años llegar un día a casa 
 Imagina por unos segundos a tu hijo de 10 años llegar un día a casa con una cuerda sujetando una iguana al otro extremo. ¿Qué harías?; bueno, mis padres no se alarmaron porque continuamente estaba haciendo este tipo de locuras.
 
 <div class="post-container-image">
-<img src="/images/infancia_con_macgyver/Casa_.webp" alt="Casalta 3" class="post-big-image">
+<img src="/images/infancia_con_macgyver/Casa_.webp" alt="Casalta 3" title="Casalta" class="post-big-image">
 </div>
 
 En mi infancia hice muchas travesuras y pasé mucho tiempo en los alrededores de mi hogar corriendo y jugando, en la montaña que se aprecia en la foto donde junto con mis amigos íbamos a *"cazar"*  iguanas, lagartijas, culebras, etc. pero también aprendí de mecánica, justo en la calle que se ve en la foto junto a la vereda estuve tiempo suficiente con mi padre lleno de grasa, todo sucio *jajaja* ayudándolo a trabajar en sus carros.
@@ -24,7 +24,7 @@ La mecánica, que en realidad no me gustaba mucho y en una oportunidad le dije q
 Afortunadamente y gracias a él, tuve la oportunidad de estudiar y que nunca nos faltase nada. El no tuvo la misma suerte, me contaba que desde los 8 años salía junto a sus hermanos mayores a trabajar, limpiando botas y vendiendo el diario para ayudar a su madre y hermanos más pequeños ya que eran muy pobres.
 
 <div class="post-container-image">
-<img src="/images/infancia_con_macgyver/limpiabotas_vzla_50.jpg" alt="Caracas Limpiabotas años 50's" class="post-medium-image">
+<img src="/images/infancia_con_macgyver/limpiabotas_vzla_50.jpg" title="Niños mimpiabotas de Caracas en los años 50's" alt="Caracas Limpiabotas años 50's" class="post-medium-image">
 <p class="post-image-footer"> Caracas en los 50's, extraída de: </br> <a href="https://www.pinterest.com/laliendo/oficios-de-anta%C3%B1o-de-venezuela/">https://www.pinterest.com/laliendo/oficios-de-anta%C3%B1o-de-venezuela/</a> </p> 
 </div>
 
