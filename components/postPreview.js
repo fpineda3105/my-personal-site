@@ -6,7 +6,7 @@ function PostPreview( {post}) {
         <section className="post">
             <header className="post-header"> 
                 <Link href="/posts/[id]" as={`/posts/${post.id}`}>
-                    <h2 className="post-title"><a>{post.meta.title}</a></h2>                
+                    <h2 className="post-title"><a dangerouslySetInnerHTML={{ __html: post.meta.title }}></a></h2>      
                 </Link>                                                   
                 <p className="post-meta">
                     Por <a className="post-author" href="#">Fer</a> <Date dateString={post.meta.date} /> en {post.meta.tags.split(',').map(
