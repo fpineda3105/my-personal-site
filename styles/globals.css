@@ -16,10 +16,6 @@ a:focus {
   text-decoration: underline;
 }
 
-h3 {
-  font-weight: 100;
-}
-
 /* LAYOUT CSS */
 .pure-img-responsive {
   max-width: 100%;
@@ -45,7 +41,10 @@ h3 {
   max-height: 100%;
   object-fit: contain;
 }
-
+.hljs {
+  background:#00334e !important;
+  line-height: 1.4em;
+}
 .sidebar {
   background:#00334e;  
   color: #fff;
