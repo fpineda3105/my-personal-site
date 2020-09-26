@@ -4,7 +4,7 @@ date: '2020-09-26'
 tags: 'fundamentos, Ciencias de la computación'
 type: 'normal'
 description: 'Como saber la eficiencia de tus algoritmos utilizando la Notación Big O'
-preview: 'Si te pidiera escribir una función que calcule la sumatoria de los primeros **n** números naturales, ¿cómo lo harías?   
+preview: 'Si te pidiera escribir una función que calcule la sumatoria de los primeros <b>n</b> números naturales, ¿cómo lo harías?   
 Tal vez lo primero que se te ocurra sea lo siguiente...'
 ---
 
