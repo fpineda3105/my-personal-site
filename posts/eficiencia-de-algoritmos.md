@@ -246,7 +246,7 @@ Usando la herramienta [Performance Tracker](https://rithmschool.github.io/functi
 
 > Por cierto, el primer ejemplo que vimos se trata de [Número triangular](https://es.wikipedia.org/wiki/N%C3%BAmero_triangular)
 
-### Complejidad espacial
+### &#x1F9E0; Complejidad espacial
 Hemos hablado del número de operaciones que toma un algoritmo en base a la entrada de sus datos. Pero también existe la [Complejidad espacial](https://es.wikipedia.org/wiki/Eficiencia_algor%C3%ADtmica#Complejidad_espacial) que debemos considerar. Se enfoca en el uso de la memoria y se utiliza la misma notación. Por ejemplo, en el caso anterior que usamos un **Map** como estructura auxiliar, estaríamos hablando de una complejidad espacial de ***O(n)*** para que la complejidad temporal también sea de ***O(n)***. Otro caso común son los algoritmos de ordenación que usan estructuras auxiliares para reordenar los elementos y .
 
 ### &#x1F4DD; Conclusiones
