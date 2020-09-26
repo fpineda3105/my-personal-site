@@ -246,7 +246,7 @@ Usando la herramienta [Performance Tracker](https://rithmschool.github.io/functi
 <img src="/images/eficiencia_algoritmos/Demo_.jpg" alt="O(1) vs O(n)" title="Big O Notation" class="post-medium-image">
 </div>
 
-> Por cierto, el primer ejemplo que vimos se trata de [Número triangular](https://es.wikipedia.org/wiki/N%C3%BAmero_triangular)
+> *Por cierto, el primer ejemplo que vimos se trata de [Número triangular](https://es.wikipedia.org/wiki/N%C3%BAmero_triangular)*
 
 ### &#x1F9E0; Complejidad espacial
 Se ha hablado del número de operaciones o tiempo que toma un algoritmo para ejecutarse en base a la entrada de sus datos. Pero también existe la [Complejidad espacial](https://es.wikipedia.org/wiki/Eficiencia_algor%C3%ADtmica#Complejidad_espacial) que debemos considerar. Se enfoca en el uso de la memoria y se representa con la misma notación. Por ejemplo, en un [caso anterior](#🧐-orden-polinómico-o-cuadrático-on-log-n) que usamos un **Map** como estructura auxiliar, estaríamos hablando de una complejidad espacial de ***O(n)*** para que la complejidad temporal de nuestro algoritmo sea de ***O(n)***. Otro caso común son los algoritmos de ordenación que usan estructuras auxiliares para reordenar los elementos.
