@@ -68,7 +68,7 @@ function sumOf(n) {
 Para cualquier valor de **n** el número de operaciones siempre será la misma. A través de una función matemática:
 f(n) = 3; su comportamiento será constante.
 
-La [notación O Grande](https://es.wikipedia.org/wiki/Cota_superior_asint%C3%B3tica) se escribe *O( f(n) )* y se lee ***orden de f(n)***. Se usa para expresar la [complejidad temporal](https://es.wikipedia.org/wiki/Complejidad_temporal); tiempo que tarda un algoritmo en ejecutarse. Para el primer ejemplo anterior que vimos, estaríamos hablando de: *O(4n+2)* y con 4 pasos sencillos podemos definir como se comporta un algoritmo:
+La [notación O Grande](https://es.wikipedia.org/wiki/Cota_superior_asint%C3%B3tica) se escribe *O( f(n) )* y se lee ***orden de f(n)***. Se usa para expresar la [complejidad temporal](https://es.wikipedia.org/wiki/Complejidad_temporal); tiempo que tarda un algoritmo en ejecutarse. Para el [primer ejemplo](#) que vimos, estaríamos hablando de: *O(4n+2)* y con 4 pasos sencillos podemos definir como se comporta un algoritmo:
 #### &#x1F480; Usa el peor caso 
 Si quieres hacer una búsqueda de un número dentro de un arreglo:  
 ```js
