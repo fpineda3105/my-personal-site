@@ -1,14 +1,14 @@
 ---
-title: '¿Cómo saber la eficiencia de tu algoritmo?'
+title: 'Conoce la eficiencia de tu algoritmo usando la notación Big O'
 date: '2020-09-26'
 tags: 'fundamentos, Ciencias de la computación'
 type: 'normal'
 description: 'Como saber la eficiencia de tus algoritmos utilizando la Notación Big O'
-preview: 'Si te pidiera escribir una función que calcule la sumatoria de los primeros **n** números, ¿cómo lo harías?   
-Tal vez lo primero que se te ocurra sea lo siguiente:...'
+preview: 'Si te pidiera escribir una función que calcule la sumatoria de los primeros **n** números naturales, ¿cómo lo harías?   
+Tal vez lo primero que se te ocurra sea lo siguiente...'
 ---
 
-Si te pidiera escribir una función que calcule la sumatoria de los primeros **n** números, ¿cómo la harías?   
+Si te pidiera escribir una función que calcule la sumatoria de los primeros **n** números naturales, ¿cómo la harías?   
 Tal vez lo primero que se te ocurra sea lo siguiente:
 
 ```js
@@ -69,7 +69,7 @@ Para cualquier valor de **n** el número de operaciones siempre será la misma. 
 f(n) = 3; su comportamiento será constante.
 
 La [notación O Grande](https://es.wikipedia.org/wiki/Cota_superior_asint%C3%B3tica) se escribe *O( f(n) )* y se lee ***orden de f(n)***. Se usa para expresar la [complejidad temporal](https://es.wikipedia.org/wiki/Complejidad_temporal); tiempo que tarda un algoritmo en ejecutarse. Para el primer ejemplo anterior que vimos, estaríamos hablando de: *O(4n+2)* y con 4 pasos sencillos podemos definir como se comporta un algoritmo:
-#### &#x1F480; Usa el peor caso
+#### &#x1F480; Usa el peor caso 
 Si quieres hacer una búsqueda de un número dentro de un arreglo:  
 ```js
 const numbers = [2, 8, 3, 10, 16, 30, 20, 13];
@@ -124,6 +124,8 @@ Existen algunas funciones comúnes con las que se suele etiquetar a los algoritm
 <img src="/images/eficiencia_algoritmos/Big-O-Complexity.webp" alt="Big O Notation" title="Big O Notation" class="post-big-image">
 </div>
 
+> &#x2755; ***Nota importante:*** *Se mide el comportamiento de tu algoritmo. El tiempo que tarda un algoritmo en ejecutarse puede variar dependiendo del hardware que lo ejecute.*
+
 #### &#x1F3C6; Orden uno *O(1)*
 Si tu algoritmo es de orden 1, es lo mejor que puedes lograr, en el primer ejemplo que vimos:
 ```js
@@ -135,7 +137,7 @@ function sumOf(n) {
 ```
 f(n) = 3 ; dado que es una constante se etiqueta como ***O(1)***.
 
-Otro ejemplo común de orden 1 es cuando ubicamos un elemento en un arreglo:
+Otro ejemplo común de orden 1 es cuando se accede a un elemento en un arreglo por su índice:
 ```js
 const arr = [1, 2, 3, 4, 5, ...];
 
@@ -167,7 +169,7 @@ printAllElements(arr);
 Lo veremos más adelante. Algunos de los algoritmos más comúnes que son etiquetados con este orden son: [Ordenamiento por mezcla](https://es.wikipedia.org/wiki/Ordenamiento_por_mezcla) y [Divide y vencerás](https://es.wikipedia.org/wiki/Algoritmo_divide_y_vencer%C3%A1s).
 
 
-#### &#x1F9D0; Orden polinómico o cuadrático *O(n log n)*
+#### &#x1F9D0; Orden polinómico o cuadrático *O(n log n)* 
 Son algoritmos comúnes pero cuando te encuentras con ellos es bueno revisarlo a ver si se puede mejorar, por ejemplo:
 
 ```js
@@ -207,10 +209,10 @@ function hasDuplicates(words) {
 ```
 En el peor de los casos, este algoritmo es de ***O(n)***.
 
-#### &#x1F480; Orden exponencial *O(2^n!)* y *O(n!)*
-Son casos que definitivamente se van a tardar, involucran permutaciones de la entrada de tus datos, por ejemplo: 
+#### &#x1F480; Orden exponencial *O(2^n)* y factorial *O(n!)*
+Son casos que definitivamente se van a tardar &#x231A;, debemos ser cuidadosos. Comúnmente hacen permutaciones de la entrada de tus datos, un ejemplo de permutación sería: 
 
-Usando [Recursión](https://es.wikipedia.org/wiki/Recursi%C3%B3n) que veremos en otro apartado
+*Usando [Recursión](https://es.wikipedia.org/wiki/Recursi%C3%B3n) que veremos en otro apartado.*
 ```js
 const word = "abc";
 
@@ -237,8 +239,8 @@ permute(word) // [ 'abc', 'acb', 'bac', 'bca', 'cab', 'cba' ]
 ```
 
 ### &#x1F440; Comparación entre ***O(1)*** y ***O(n)*** 
-Con el primer ejemplo que vimos, vemos un gráfico de ambos algoritmos para los valores; **n** = 5000, 50000, 500000, 5000000, 50000000.
-Usando la herramienta [Performance Tracker](https://rithmschool.github.io/function-timer-demo/) podemos ver el resultado de ambos algoritmos.
+Con el [primer ejemplo](#) que vimos, veamos un gráfico de ambos algoritmos para los valores; **n** = 5000, 50000, 500000, 5000000, 50000000.
+Usando la herramienta [Performance Tracker](https://rithmschool.github.io/function-timer-demo/) podemos ver el comportamiento de ambos algoritmos.
 
 <div class="post-container-image">
 <img src="/images/eficiencia_algoritmos/Demo_.jpg" alt="O(1) vs O(n)" title="Big O Notation" class="post-medium-image">
@@ -247,10 +249,13 @@ Usando la herramienta [Performance Tracker](https://rithmschool.github.io/functi
 > Por cierto, el primer ejemplo que vimos se trata de [Número triangular](https://es.wikipedia.org/wiki/N%C3%BAmero_triangular)
 
 ### &#x1F9E0; Complejidad espacial
-Hemos hablado del número de operaciones que toma un algoritmo en base a la entrada de sus datos. Pero también existe la [Complejidad espacial](https://es.wikipedia.org/wiki/Eficiencia_algor%C3%ADtmica#Complejidad_espacial) que debemos considerar. Se enfoca en el uso de la memoria y se utiliza la misma notación. Por ejemplo, en el caso anterior que usamos un **Map** como estructura auxiliar, estaríamos hablando de una complejidad espacial de ***O(n)*** para que la complejidad temporal también sea de ***O(n)***. Otro caso común son los algoritmos de ordenación que usan estructuras auxiliares para reordenar los elementos y .
+Se ha hablado del número de operaciones o tiempo que toma un algoritmo para ejecutarse en base a la entrada de sus datos. Pero también existe la [Complejidad espacial](https://es.wikipedia.org/wiki/Eficiencia_algor%C3%ADtmica#Complejidad_espacial) que debemos considerar. Se enfoca en el uso de la memoria y se representa con la misma notación. Por ejemplo, en un [caso anterior](#🧐-orden-polinómico-o-cuadrático-on-log-n) que usamos un **Map** como estructura auxiliar, estaríamos hablando de una complejidad espacial de ***O(n)*** para que la complejidad temporal de nuestro algoritmo sea de ***O(n)***. Otro caso común son los algoritmos de ordenación que usan estructuras auxiliares para reordenar los elementos.
 
 ### &#x1F4DD; Conclusiones
-La eficiencia de los algoritmos que creamos es algo que siempre debemos considerar, dependiendo de la cantidad de datos que se esté manuipulando nos podemos ahorrar una gran cantidad de tiempo de computo.
+La eficiencia de los algoritmos que creamos es algo que siempre debemos considerar. Usa siempre el peor caso. Los ciclos anidados deben re-evaluarse. Dependiendo de la cantidad de datos que estemos manuipulando nos podemos ahorrar una gran cantidad de tiempo de computo.  
+
+Y por último les dejo una cita de [C. A. R. Hoare](https://es.wikipedia.org/wiki/C._A._R._Hoare):
+> *«Hay dos maneras de diseñar software: una es hacerlo tan simple que sea obvia su falta de deficiencias, y la otra es hacerlo tan complejo que no haya deficiencias obvias»*
 
 ### &#x1F4DA; Referencias
 

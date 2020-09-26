@@ -8,7 +8,7 @@ export default function PostComponent( {post}) {
             <div>   
                 <section className="post">
                     <header className="post-header">                 
-                    <h2 className="post-title"><a dangerouslySetInnerHTML={{ __html: post.meta.title }}></a></h2>                               
+                    <h2 id='#' className="post-title"><a dangerouslySetInnerHTML={{ __html: post.meta.title }}></a></h2>                               
                         <p className="post-meta">
                             Por <a className="post-author" href="#">Fer</a> <Date dateString={post.meta.date} /> en {post.meta.tags.split(',').map(
                                 tag => (
