@@ -32,7 +32,7 @@ function sumOf(n) {
 
 
 ## &#10067; Notación O grande? (Big O Notation)
-Es un método que se basa en las matemáticas (&#x1F628; tranquilo, no te asustes) para saber como se va a comportar nuestro algoritmo, calculando un apróximado del número de operaciones a realizar (en el peor de los casos) dependiendo de la entrada de sus datos.
+Es un método que se basa en las matemáticas (&#x1F628; calma, no te asustes) para saber como se va a comportar nuestro algoritmo, calculando un apróximado del número de operaciones a realizar (en el peor de los casos) dependiendo de la entrada de sus datos.
 Calculemos en los ejemplos anteriores para **n** = 100
 
 ```js
