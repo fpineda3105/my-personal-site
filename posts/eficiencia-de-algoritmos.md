@@ -243,7 +243,7 @@ Con el [primer ejemplo](#) que vimos, veamos un gráfico de ambos algoritmos par
 Usando la herramienta [Performance Tracker](https://rithmschool.github.io/function-timer-demo/) podemos ver el comportamiento de ambos algoritmos.
 
 <div class="post-container-image">
-<img src="/images/eficiencia_algoritmos/Demo_.jpg" alt="O(1) vs O(n)" title="Big O Notation" class="post-medium-image">
+<img src="/images/eficiencia_algoritmos/Demo_.jpg" alt="O(1) vs O(n)" title="Big O Notation" class="post-medium-image"/>
 </div>
 
 > *Por cierto, el primer ejemplo que vimos se trata de [Número triangular](https://es.wikipedia.org/wiki/N%C3%BAmero_triangular)*
