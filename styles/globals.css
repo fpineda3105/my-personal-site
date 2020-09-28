@@ -78,7 +78,7 @@ a:focus {
 }
 
 .nav-social-item {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 .social-item {  
@@ -225,22 +225,58 @@ a:focus {
     color: #444;
     line-height: 1.6em;
   }
+
+  .header {
+    margin: 10% 2em 0;
+    text-align: center;
+  }
+  
+  .profile-img {
+    max-width: 30%;
+    object-fit: contain;
+  }
+
+  .brand-title {
+    font-size: 1.4em;
+  }
+  .brand-tagline {
+    font-size: 1.2em;
+  }
+
+  .nav-social-item {
+    font-size: 1.5em;
+  }
     
 }
 
-@media (min-width: 480px) and (max-width: 760px) { 
+@media (min-width: 480px) and (max-width: 959px) { 
   .nav-list {
     display: inline-flex;    
+  }
+
+  .brand-title {
+    font-size: 1.5em;
+  }
+  .brand-tagline {
+    font-size: 1.2em;
   }
 
   .about-me {
     margin-top: 0em;   
     margin-bottom: 0em;
   }
+  .nav-social-item {
+    font-size: 1.5em;
+  }
+
+  .header {
+    margin: 10% 2em 0;
+    text-align: center;
+  }
   
 }
 
-@media (min-width: 770px) {
+@media (min-width: 960px) {
   .content {
       padding: 2em 3em 0;
       margin-left: 30%;
