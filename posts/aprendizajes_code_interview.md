@@ -187,7 +187,7 @@ Creemos una clase que encapsule la data que devuelve el *API* y agreguemos algun
   }
 ```
 
-Incorporemos otra pequeña mejora a la hora de filtrar la información utilizando la interfaz de Predicados
+Incorporemos otra pequeña mejora a la hora de filtrar las edades (ages) utilizando la interfaz de Predicados
 
 ```java
   static class GreaterThan50 implements Predicate<String> {
@@ -230,6 +230,8 @@ Quedando la solución refactorizada de la siguiente manera:
       }
   }
 ```
+
+Sin duda está mucho mejor que la primera versión.
 
 ### &#x1F4DA; Aprendizajes
 
