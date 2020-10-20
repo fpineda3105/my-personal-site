@@ -7,7 +7,7 @@ description: 'Aprendizajes adquiridos luego de una coding interview'
 preview: 'Un problema que resolver, un editor, tus coding skills y un tiempo determinado para resolverlo &#x231A;...'
 ---
 
-Un problema que resolver, un editor, tus coding skills y un tiempo determinado para resolverlo &#x231A;
+Un problema que resolver, un editor, tus coding skills, un tiempo determinado para resolverlo &#x231A;.
 
 <div class="post-container-image">
 <img src="/images/aprendizajes_coding_interview/coding-working-workspace_.jpg" alt="Coding" title="Coding" class="post-medium-image">
@@ -17,9 +17,10 @@ Consistía en consumir un endpoint con una petición *http://* obtener de la res
 
 Parece que no es muy complejo no? &#x1F914; véamos:
 
-### Input o Entrada &#x1F4E9;
+### Los datos de entrada &#x1F4E9;
 
 El formato de la respuesta *http* era como el siguiente:
+
 ```json
 {"data":"key=IAsdpK, age=58, key=WdNVdi, age=64, key=jsd9zt, age=47,  
 key=0Sr4C, age=68, key=CGEqo, age=76, key=IxKVQ, age=79, key=eD221, age=29,  
@@ -41,8 +42,8 @@ Ahora que conocemos el detalle de la respuesta, el algoritmo sería algo así:
 
 - iterar y filtrar las edades que sean mayor o igual a 50.
   
-
 ### La solución &#x1F913; &#x1F4BB;
+
 Debía hacerlo con un lenguaje seleccionado, en este caso yo usé **Java**.  
 
 ```java
@@ -72,7 +73,7 @@ public static void main (String[] args) {
          // Separo las ages en un arreglo, las convierto en un Stream, 
          // Filtro los mayores a 50 y cuento la cantidad de ellos.
         long result = Stream.of(response.toString().split(":")[1]
-        .replaceAll("(key=)[a-zA-z0-9]+,\\s(age=)|[\\\"\\s\\}]?","").split(","))      
+        .replaceAll("(key=)[a-zA-z0-9]+,\\s(age=)|[\\\"\\s\\}]?","").split(","))
         .filter(element -> Integer.parseInt(element) >= 50).count();
 
         // Imprimo resultado en consola
@@ -89,7 +90,8 @@ public static void main (String[] args) {
 
 > observen bien el código &#x1F440; a ver si detectan algunas mejoras.
 
-### El post envío &#x1F9D0;
+### El post envío de la solución &#x1F9D0;
+
 Bueno ese código es terrible &#x1F480;, aunque soluciona el problema planteado carece de algunas cosas :
 
 - para empezar he olvidado hacer el *close* del *BufferedReader*.
@@ -105,6 +107,7 @@ Así que lo hice nuevamente con un poco más de calma.
 ### Refactorización &#x1F9E0;
 
 Algo sencillo con lo que podemos comenzar es separar la expresión regular en una variable:
+
 ```java
   final String UNNECESSARY_DATA = "(key=)[a-zA-z0-9]+,\\s(age=)|[\\\"\\s\\}]?";
 
@@ -116,10 +119,12 @@ Algo sencillo con lo que podemos comenzar es separar la expresión regular en un
 también podemos extraer el response de la *HttpURLConnection* en otro método:
 
 ```java
-  private static String extractResponseFrom(final HttpURLConnection connection) throws IOException {
+  static String extractResponseFrom (final HttpURLConnection connection) throws IOException {
+
       StringBuilder response = new StringBuilder();
 
-      BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+      BufferedReader in = new BufferedReader(
+        new InputStreamReader(connection.getInputStream()));
 
       String inputLine;
       while ((inputLine = in.readLine()) != null) {
@@ -231,20 +236,27 @@ Quedando la solución refactorizada de la siguiente manera:
   }
 ```
 
-Sin duda está mucho mejor que la primera versión.
+Probablemente se pueda mejorar aún más, por ejemplo, se puede encapsular la llamada http en otro método, pero sin duda está mucho mejor que la primera versión.
 
 ### &#x1F4DA; Aprendizajes
 
-Hoy día usamos frameworks y/o librerias para la mayoría de las cosas que hacemos por diferentes razones y nos acostumbramos a que hacen mucho por nosotros, por ejemplo si usamos [Spring](https://spring.io/) y su ecosistema, [Spring Data](https://spring.io/projects/spring-data), etc. no debemos preocuparnos por abrir o cerrar una conexión a BD, hacer un commit o un rollback de una transacción. No debemos olvidarnos de los fundamentos y de como funcionan las piezas por debajo.
+Hoy día usamos frameworks y/o librerias para la mayoría de las cosas que hacemos por diferentes razones y nos acostumbramos a que hacen mucho por nosotros, por ejemplo si usamos [Spring](https://spring.io/) y su ecosistema, [Spring Data](https://spring.io/projects/spring-data), etc. no debemos preocuparnos por abrir o cerrar una conexión a BD, hacer un commit o un rollback de una transacción.  
 
-- No apresurarse a enviar cuando obtengamos la solución.
+Es importante conocer los fundamentos y como funcionan las piezas por debajo.  
 
-- Aplicar técnicas de refactorización para que el código sea más entendible.
+Palabras finales:
 
-- Utilizar los recursos de los que disponemos para crear una solución lo más simple y entendible posible.
+- No apresurarse a enviar la solución, dar una última revisada a detalle.
 
-- Aplica principios [SOLID](https://es.wikipedia.org/wiki/SOLID) luego hablaré en otro apartado de esto.
+- Aplicar refactorización para que el código sea legible.
 
-- Aprender de tus errores es fundamental para tu crecimiento.
+- Utilizar los recursos que dispones ([programación orientada a objetos](https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos), [programación funcional](https://es.wikipedia.org/wiki/Programaci%C3%B3n_funcional), conocimientos del lenguaje) para crear una solución lo más simple y entendible posible.
 
-Espero que te sirva mi experiencia y tú? también has pasado por una situación similar?
+- Aplicar principios [SOLID](https://es.wikipedia.org/wiki/SOLID) luego hablaré en otro apartado de esto.
+
+- Aprender de tus experiencias es fundamental para el crecimiento.
+
+Espero que te sirva la mía y tú? también has pasado por una similar?
+
+> *«Cuando te das cuenta de que has cometido un error, toma medidas inmediatas para corregirlo.»*  
+> *Dalai Lama*
