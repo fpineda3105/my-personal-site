@@ -39,7 +39,7 @@ Ahora que conocemos el detalle de la respuesta, el algoritmo sería algo así:
 
 - convertirlo en un arreglo o lista de edades para operarlo.
 
-- iterar y sólo filtrar las edades que sean mayor o igual a 50.
+- iterar y filtrar las edades que sean mayor o igual a 50.
   
 
 ### La solución &#x1F913; &#x1F4BB;
