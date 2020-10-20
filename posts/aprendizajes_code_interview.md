@@ -172,7 +172,7 @@ Creemos una clase que encapsule la data que devuelve el *API* y agreguemos algun
       private static final String UNNECESSARY_DATA = "(key=)[a-zA-z0-9]+,\\s(age=)|[\\\"\\s\\}]?";
       private String data;
 
-      Data(String value){
+      Data(String value) {
           this.data = value;
       }
 
@@ -212,8 +212,7 @@ Incorporemos otra pequeña mejora a la hora de filtrar las edades (ages) utiliza
 Quedando la solución refactorizada de la siguiente manera:
 
 ```java
-  public static void main(String args[])
-    {
+  public static void main(String args[]) {
       try
       {
           URL url = new URL("https://.../api/challenges/json/ages");
