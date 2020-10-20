@@ -7,7 +7,7 @@ description: 'Aprendizajes adquiridos luego de una coding interview'
 preview: 'Un problema que resolver, un editor, tus coding skills y un tiempo determinado para resolverlo &#x231A;...'
 ---
 
-Un problema que resolver, un editor, tus coding skills, un tiempo determinado para resolverlo &#x231A;.
+Un problema que resolver, un editor, tus coding skills y un tiempo determinado para resolverlo &#x231A;.
 
 <div class="post-container-image">
 <img src="/images/aprendizajes_coding_interview/coding-working-workspace_.jpg" alt="Coding" title="Coding" class="post-medium-image">
