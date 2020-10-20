@@ -116,6 +116,15 @@ Algo sencillo con lo que podemos comenzar es separar la expresión regular en un
       .filter(element -> Integer.parseInt(element) >= 50).count();
 ```
 
+> ***Nota***: al hacer un replace con las expresión regular nos queda algo asi:
+> ```java
+> "58,64,47,68,76,79,29,32,88,65,33..."  
+> ```
+> y haciendo el split algo así:
+ ```java
+> ["58","64","47","68","76","79","29","32","88","65","33"...]  
+> ```
+
 también podemos extraer el response de la *HttpURLConnection* en otro método:
 
 ```java
