@@ -1,7 +1,7 @@
 ---
 title: 'Aprendizajes de una coding interview'
 date: '2020-10-20'
-tags: 'fundamentos, coding interview, codigo limpio'
+tags: 'fundamentos, coding interview, codigo limpio, personal'
 type: 'normal'
 description: 'Aprendizajes adquiridos luego de una coding interview'
 preview: 'Un problema que resolver, un editor, tus coding skills y un tiempo determinado para resolverlo &#x231A;...'
