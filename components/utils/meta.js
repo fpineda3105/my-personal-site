@@ -12,9 +12,10 @@ export default function Meta( {props} ) {
             <meta name="author" content="Fernando Pineda"></meta>
             <meta property="og:site_name" content="Fernando Pineda"></meta>
             <meta property="og:type" content={props?.contentType ? props.contentType : "profile"}></meta>
-            <meta name="og:description" property="og:description" content={props?.description ? props.description : DEFAULT_DESCRIPTION}></meta>
-            <meta name="twitter:card" content="summary"></meta>
+            <meta name="og:description" property="og:description" content={props?.description ? props.description : DEFAULT_DESCRIPTION}></meta>            
+            <meta name="twitter:url" content={`${props?.url ? props.url : BASE_URI}`}></meta>
             <meta name="twitter:title" content={props?.title ? props.title : DEFAULT_TITLE }></meta>
+            <meta name="twitter:description" property="og:description" content={props?.description ? props.description : DEFAULT_DESCRIPTION}></meta>
             <meta name="twitter:site" content="@_fpineda"></meta>
             <meta name="twitter:creator" content="@_fpineda"></meta>
             <meta httpEquiv="X-UA-Compatible" content="IE=edge"></meta>
