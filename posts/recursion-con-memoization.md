@@ -13,7 +13,7 @@ preview: 'En tiempos antiguos, antes de que los computadores fueran inventados, 
 ### Martin y el Dragón
 En tiempos antiguos, antes de que los computadores fueran inventados, alquimistas estudiaron las propiedades míticas de los números. Como no había computadores, tenían que acudir a dragones para hacer el trabajo. Los dragones eran bestias inteligentes pero también perezosos y malhumorados.
 
-Un día el alquimista le dio a Martin una lista de números y lo envió a una cueva para que le preguntase al dragón si alguno de esos números era impar. Martin no había estado en la cueva antes, así que tomó una vela y fue entrando tímidamente y con cuidado hasta encontrar en el fondo a un viejo dragón.
+Un día un alquimista le dio a Martin una lista de números y lo envió a una cueva para que le preguntase al dragón si alguno de esos números era impar. Martin no había estado en la cueva antes, así que tomó una vela y fue entrando tímidamente y con cuidado hasta encontrar en el fondo a un viejo dragón.
 
 <div class="post-container-image">
 <img src="/images/dragones_recursion_memoization/slepping_dragon.jpg" alt="Dragon en cueva" title="Dragon en cueva" class="post-medium-image"/>
@@ -98,7 +98,7 @@ La idea es que en cada iteración nuestro problema sea cada vez más pequeño. E
 #### Contexto de ejecución y Stack
 La información acerca de la ejecución de una función es almacenada en un **contexto de ejecución**. Es una estructura de datos que contiene los detalles de la ejecución de una función, tales como: qué instrucción se está ejecutando, las variables, etc.
 
-En cada llamada se pausa la ejecución actual y se apila en un Stack. La mayoría de los lenguajes usan un [Call Stack](https://en.wikipedia.org/wiki/Call_stack) para almacenar los contextos de ejecución y colocan un límite para evitar un [Stack Overflow](https://en.wikipedia.org/wiki/Stack_overflow).
+En cada llamada se pausa la ejecución actual y se apila en un Stack el contexto actual. La mayoría de los lenguajes usan un [Call Stack](https://en.wikipedia.org/wiki/Call_stack) para almacenar los contextos de ejecución y colocan un límite para evitar un [Stack Overflow](https://en.wikipedia.org/wiki/Stack_overflow).
 
 #### El camino más largo en una pirámide
 
@@ -110,7 +110,7 @@ En cada llamada se pausa la ejecución actual y se apila en un Stack. La mayorí
    /8/ 2 4 8 6
  ```
 
-Este es un problema que puede hacer con recursión, haciendo un análisis, podemos hacer un recorrido hacia abajo, hasta llegar a la base de la pirámide luego desde abajo ir sumando y verificando la suma o elemento máximo de cada lado dependiendo de la posición en la que estemos.
+Este es un problema que se puede hacer con recursión, haciendo un análisis, podemos hacer un recorrido hacia abajo, hasta llegar a la base de la pirámide luego desde abajo ir sumando y verificando la suma o elemento máximo de cada lado dependiendo de la posición en la que estemos.
 
 Si nos posicionamos en el primer escalón de la pirámide y sumamos con el máximo entre el lado izquierdo y derecho, veremos:
 
@@ -152,7 +152,7 @@ Y finalmenente:
 Si vemos la solución de este algoritmo:
 
 ```js
-function maxPathWeight(pyramid, floor, position) {
+function maxPathWeight( pyramid, floor, position ) {
     let currentNode = pyramid[floor][position];
     // cuando llegamos a la base de la piramide, retornamos
     // para acumularlo
