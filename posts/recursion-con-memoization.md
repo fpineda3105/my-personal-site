@@ -1,7 +1,7 @@
 ---
 title: 'Una breve historia de Dragones, recursión y memoization'
 date: '2020-11-18'
-tags: 'fundamentos, Ciencias de la computación'
+tags: 'fundamentos, Ciencias de la computación, algoritmos'
 type: 'normal'
 description: 'Mejorando la recursión usando memoization'
 preview: 'En tiempos antiguos, antes de que los computadores fueran inventados, alquimistas estudiaron las propiedades míticas de los números. Como no había computadores, tenían que acudir a dragones para hacer el trabajo.'
