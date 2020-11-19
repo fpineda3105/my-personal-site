@@ -110,9 +110,9 @@ En cada llamada se pausa la ejecución actual y se apila en un Stack el contexto
    /8/ 2 4 8 6
  ```
 
-Este es un problema que se puede hacer con recursión, haciendo un análisis, podemos hacer un recorrido hacia abajo, hasta llegar a la base de la pirámide luego desde abajo ir sumando y verificando la suma o elemento máximo de cada lado dependiendo de la posición en la que estemos.
+Este es un problema que se puede hacer con recursión. Haciendo un análisis, podemos hacer un recorrido hacia abajo, hasta llegar a la base de la pirámide luego desde abajo ir sumando y verificando la suma o elemento máximo de cada lado dependiendo de la posición en la que estemos.
 
-Si nos posicionamos en el primer escalón de la pirámide y sumamos con el máximo entre el lado izquierdo y derecho, veremos:
+Si nos posicionamos en el primer escalón, en cada posición de la pirámide y sumamos con el máximo entre el lado izquierdo y derecho, veremos:
 
 ```lisp
 
