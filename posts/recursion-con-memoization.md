@@ -103,7 +103,7 @@ En cada llamada se pausa la ejecución actual y se apila en un Stack el contexto
 #### El camino más largo en una pirámide
 
 ```lisp
-       /5/  
+->     /5/  
       /4/ 3  
      /7/ 9 7  
     /9/ 7 6 5
