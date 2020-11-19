@@ -63,7 +63,7 @@ Veamos la conversación de Martin y el Dragon usando JavaScript:
 
 ```js
 
-function isOdd(number) {
+function isOdd( number ) {
     return number % 2 != 0;
 }
 
@@ -75,7 +75,7 @@ function isAnyOddNumberIn( numbers ) {
     // obtenemos primer elemento y el resto en 2 variables
     let [firstNumber, ...rest] = numbers;
     // preguntamos si es Par el primer elemento 
-    if (isOdd(firstNumber)) {
+    if (isOdd( firstNumber )) {
         return true;
     }        
     // si no es Par, volvemos a preguntar con el resto de la lista
@@ -167,7 +167,7 @@ function maxPathWeight( pyramid, floor, position ) {
     return Math.max(leftPath, rightPath);
 }
 
-function longestPath(pyramid) {
+function longestPath( pyramid ) {
     // comenzamos desde la raíz la posición [0][0]
     return pathWeight(pyramid, 0, 0);
 }
@@ -180,7 +180,7 @@ let pyramid =
     [9, 7, 6, 5],
     [8, 2, 4, 8, 6]];
 
-console.log(longestPath(pyramid)); // 33
+console.log( longestPath( pyramid ) ); // 33
 ```
 
 ### &#x1F4DA; Referencias
