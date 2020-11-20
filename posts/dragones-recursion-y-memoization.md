@@ -1,5 +1,5 @@
 ---
-title: 'Una breve historia de Dragones, recursión y memoization'
+title: 'Una breve historia de dragones, recursión y memoization'
 date: '2020-11-18'
 tags: 'fundamentos, Ciencias de la computación, algoritmos'
 type: 'normal'
