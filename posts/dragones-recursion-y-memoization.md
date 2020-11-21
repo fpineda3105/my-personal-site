@@ -1,6 +1,7 @@
 ---
 title: 'Una breve historia de dragones, recursión y memoization'
-date: '2020-11-18'
+image: "https://fpinedadev.com/images/dragones_recursion_memoization/slepping_dragon.jpg"
+date: '2020-11-20'
 tags: 'fundamentos, Ciencias de la computación, algoritmos'
 type: 'normal'
 description: 'Una breve historia de Dragones, recursión y memoization'

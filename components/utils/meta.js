@@ -10,6 +10,7 @@ export default function Meta( {props} ) {
             <meta name="og:title" property="og:title" content={props?.title ? props.title : DEFAULT_TITLE} />
             <meta property="og:url" content={`${props?.url ? props.url : BASE_URI}`}></meta>
             <meta name="author" content="Fernando Pineda"></meta>
+            <meta property="og:image" content={props?.image ? props.image : ""}></meta>
             <meta property="og:site_name" content="Fernando Pineda"></meta>
             <meta property="og:type" content={props?.contentType ? props.contentType : "profile"}></meta>
             <meta name="og:description" property="og:description" content={props?.description ? props.description : DEFAULT_DESCRIPTION}></meta>            

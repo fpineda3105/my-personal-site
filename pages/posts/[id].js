@@ -35,6 +35,7 @@ export async function getStaticProps({ params }) {
                 description: post.meta.description,
                 contentType: "article",
                 titlePage : post.meta.title + " | Fernando Pineda",
+                image: post.meta.image
             }
         }
     }
