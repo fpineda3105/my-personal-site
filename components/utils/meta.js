@@ -14,6 +14,7 @@ export default function Meta( {props} ) {
             <meta property="og:site_name" content="Fernando Pineda"></meta>
             <meta property="og:type" content={props?.contentType ? props.contentType : "profile"}></meta>
             <meta name="og:description" property="og:description" content={props?.description ? props.description : DEFAULT_DESCRIPTION}></meta>
+            <meta name="twitter:image" content={props?.image ? props.image : ""}></meta>
             <meta name="twitter:card" content="summary" />            
             <meta name="twitter:url" content={`${props?.url ? props.url : BASE_URI}`}></meta>
             <meta name="twitter:title" content={props?.title ? props.title : DEFAULT_TITLE }></meta>
