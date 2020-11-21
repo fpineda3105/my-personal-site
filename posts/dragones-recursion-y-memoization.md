@@ -245,7 +245,7 @@ let pyramid =
 console.log( longestPath( pyramid ) ); // 33
 ```
 
-Ahora si quieres ejecutarlo acá el código [pirámide más grande usando memoization](https://jsfiddle.net/f9w48a1g/).
+Ahora si quieres ejecutarlo acá el código [pirámide más grande usando memoization](https://jsfiddle.net/f9w48a1g/) verás el resultado de manera instantánea.
 
 ### &#x1F4DD; Conclusiones
 
