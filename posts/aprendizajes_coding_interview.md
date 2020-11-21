@@ -1,5 +1,6 @@
 ---
 title: 'Aprendizajes de una coding interview'
+image: "https://fpinedadev.com/images/aprendizajes_coding_interview/coding-working-workspace_.jpg"
 date: '2020-10-20'
 tags: 'fundamentos, coding interview, codigo limpio, personal'
 type: 'normal'
