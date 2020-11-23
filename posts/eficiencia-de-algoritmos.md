@@ -212,7 +212,7 @@ En el peor de los casos, este algoritmo es de ***O(n)***.
 #### &#x1F480; Orden exponencial *O(2^n)* y factorial *O(n!)*
 Son casos que definitivamente se van a tardar &#x231A;, debemos ser cuidadosos. Comúnmente hacen permutaciones de la entrada de tus datos, un ejemplo de permutación sería: 
 
-*Usando [Recursión](https://es.wikipedia.org/wiki/Recursi%C3%B3n) que veremos en otro apartado.*
+*Usando [Recursión](https://fpinedadev.com/posts/dragones-recursion-y-memoization) aquí mi otro post.*
 ```js
 const word = "abc";
 
