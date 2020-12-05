@@ -194,7 +194,7 @@ También conocido como [Programación dinámica](https://en.wikipedia.org/wiki/D
 Veamos el problema del ejercicio anterior
 
 <div class="post-container-image">
-<img src="/images/dragones_recursion_memoization/pyramid_nodes.jpg" alt="pyramid nodes visits" title="Nodos visitados en la piramide" class="post-big-image"/>
+<img loading="lazy" src="/images/dragones_recursion_memoization/pyramid_nodes.jpg" alt="pyramid nodes visits" title="Nodos visitados en la piramide" class="post-big-image"/>
 </div>
 
 Si vemos cada posición del array como un nodo, podemos ver cuántas veces es visitado cada nodo para poder obtener el camino más largo, lo cual no es eficiente si ya sabemos al posicionarnos en un nodo cuál es el camino más largo hacia abajo a partir de él, entonces usemos una caché.

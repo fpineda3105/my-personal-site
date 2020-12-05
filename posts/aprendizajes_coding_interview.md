@@ -1,6 +1,6 @@
 ---
 title: 'Aprendizajes de una coding interview'
-image: "https://fpinedadev.com/images/aprendizajes_coding_interview/coding-working-workspace_.jpg"
+image: "https://fpinedadev.com/images/aprendizajes_coding_interview/coding-working-workspace.jpg"
 date: '2020-10-20'
 tags: 'fundamentos, coding interview, codigo limpio, personal'
 type: 'normal'
@@ -11,7 +11,7 @@ preview: 'Un problema que resolver, un editor, tus coding skills y un tiempo det
 Un problema que resolver, un editor, tus coding skills y un tiempo determinado para resolverlo &#x231A;.
 
 <div class="post-container-image">
-<img src="/images/aprendizajes_coding_interview/coding-working-workspace_.jpg" alt="Coding" title="Coding" class="post-medium-image">
+<img src="/images/aprendizajes_coding_interview/coding-working-workspace.jpg" alt="Coding" title="Coding" class="post-big-image">
 </div>
 
 Consistía en consumir un endpoint con una petición *http://* obtener de la respuesta la cantidad de edades mayores o iguales a 50 e imprimirlo en consola.  
