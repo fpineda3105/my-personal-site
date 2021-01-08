@@ -249,7 +249,7 @@ a:focus {
     
 }
 
-@media (min-width: 480px) and (max-width: 959px) { 
+@media (min-width: 480px) and (max-width: 768px) { 
   .nav-list {
     display: inline-flex;    
   }
@@ -276,10 +276,10 @@ a:focus {
   
 }
 
-@media (min-width: 960px) {
+@media (min-width: 769px) {
   .content {
       padding: 2em 3em 0;
-      margin-left: 30%;
+      margin-left: 25%;
   }
 
   .header {
