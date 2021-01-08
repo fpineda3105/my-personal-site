@@ -10,9 +10,9 @@ preview: 'Un problema que resolver, un editor, tus coding skills y un tiempo det
 
 Un problema que resolver, un editor, tus coding skills y un tiempo determinado para resolverlo &#x231A;.
 
-<div class="post-container-image">
+<figure class="post-container-image">
 <img src="/images/aprendizajes_coding_interview/coding-working-workspace.jpg" alt="Coding" title="Coding" class="post-big-image">
-</div>
+</figure>
 
 Consistía en consumir un endpoint con una petición *http://* obtener de la respuesta la cantidad de edades mayores o iguales a 50 e imprimirlo en consola.  
 

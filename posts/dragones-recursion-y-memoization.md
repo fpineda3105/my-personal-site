@@ -17,10 +17,10 @@ En tiempos antiguos, antes de que los computadores fueran inventados, alquimista
 
 Un día un alquimista le dio a Martin una lista de números y lo envió a una cueva para que le preguntase al dragón si alguno de esos números era impar. Martin no había estado en la cueva antes, así que tomó una vela y fue entrando tímidamente y con cuidado hasta encontrar en el fondo a un viejo dragón.
 
-<div class="post-container-image">
+<figure class="post-container-image">
     <img src="/images/dragones_recursion_memoization/slepping_dragon.jpg" alt="Dragon en cueva" title="Dragon en cueva" class="post-big-image"/>
-<p class="post-image-footer"> imagen de: </br> <a href="https://www.deviantart.com/eirescei/art/Let-Sleeping-Dragons-Lie-142455593">https://www.deviantart.com/eirescei/art/Let-Sleeping-Dragons-Lie-142455593</a> </p>
-</div>
+<figcaption class="post-image-footer"> imagen de: </br> <a href="https://www.deviantart.com/eirescei/art/Let-Sleeping-Dragons-Lie-142455593">https://www.deviantart.com/eirescei/art/Let-Sleeping-Dragons-Lie-142455593</a> </figcaption>
+</figure>
 
 > *"Que quieres?"*  -gruñó el dragón mientras lo miraba con sospecha-  
 > *"Por favor, dragón tengo una lista de números y necesito saber si alguno es impar"*  -dijo Martin-  
@@ -193,9 +193,9 @@ También conocido como [Programación dinámica](https://en.wikipedia.org/wiki/D
 
 Veamos el problema del ejercicio anterior
 
-<div class="post-container-image">
+<figure class="post-container-image">
 <img loading="lazy" src="/images/dragones_recursion_memoization/pyramid_nodes.jpg" alt="pyramid nodes visits" title="Nodos visitados en la piramide" class="post-big-image"/>
-</div>
+</figure>
 
 Si vemos cada posición del array como un nodo, podemos ver cuántas veces es visitado cada nodo para poder obtener el camino más largo, lo cual no es eficiente si ya sabemos al posicionarnos en un nodo cuál es el camino más largo hacia abajo a partir de él, entonces usemos una caché.
 > **Nota:** para este caso en particular quizás no se nota tanto la diferencia. pero si intentamos ejecutar el mismo algoritmo con una [pirámide más grande]((https://www.linkedin.com/posts/emilianoleonc_devopsjobs-oportunidadlaboral-remotejob-activity-6735609714622681089-lE8V)), &#x23F3; seguramente no culmine.

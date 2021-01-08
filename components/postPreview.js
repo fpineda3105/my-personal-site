@@ -3,7 +3,7 @@ import Date from '../components/date'
 
 function PostPreview( {post}) {
     return (
-        <section className="post">
+        <article className="post">
             <header className="post-header"> 
                 <Link href="/posts/[id]" as={`/posts/${post.id}`}>
                     <h2 className="post-title"><a dangerouslySetInnerHTML={{ __html: post.meta.title }}></a></h2>      
@@ -16,13 +16,13 @@ function PostPreview( {post}) {
                     )}
                 </p>
             </header>
-            <div className="post-description">
+            <article className="post-description">
                 <div dangerouslySetInnerHTML={{ __html: post.meta.preview }} />
                 <Link href="/posts/[id]" as={`/posts/${post.id}`}>
                     <a>leer mas</a>                
                 </Link>                
-            </div>
-        </section> 
+            </article>
+        </article> 
     );    
 }
 

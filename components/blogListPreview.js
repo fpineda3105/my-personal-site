@@ -7,31 +7,31 @@ function BlogListPreview( {allPosts}) {
         return new Date(postB.meta.date) - new Date(postA.meta.date);
     });
     return (        
-            <div>
+            <main>
                 { fixedPosts.length > 0 ? (               
-                <div className="posts">
+                <section className="posts">
                     <h1 className="content-subhead">Post Fijado</h1>                                      
                     {
                       fixedPosts.map(post => (
                         <PostPreview key={post.id} post={post}/>                              
                       ))
                     }  
-                </div>
+                </section>
                 ) : null
                 }
                 { normalPosts.length > 0 ? (  
-                    <div className="posts">
+                    <section className="posts">
                         <h1 className="content-subhead">Posts Recientes</h1>
                         {
                         normalPosts.map(post => (
                             <PostPreview key={post.id} post={post}/>                              
                         ))
                         }                                                                                           
-                    </div>
+                    </section>
                 ) : null
                 }                                
                 
-            </div>        
+            </main>        
     );    
 }
 

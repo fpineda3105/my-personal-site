@@ -5,12 +5,12 @@ import {BASE_URI} from '../../components/utils/meta'
 
 export default function Post( {post, meta} ) {
     return ( 
-        <div className="content pure-u-1 pure-u-md-3-4">
+        <section className="content pure-u-1 pure-u-md-3-4">
             <Head>                                
                 <title>{meta.titlePage}</title>                
             </Head>              
             <PostComponent post={post}/>  
-        </div>                       
+        </section>                       
     );
 }
 
