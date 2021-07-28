@@ -43,7 +43,7 @@ Se refiere al estilo de programación en el cual el foco es tener algo funcional
 
 En esta era de "agilidad" que practican muchas organizaciones también se hace presente este mindset dada la urgencia de entregar "valor" rápidamente a los usuarios.
 
-A la larga este mindset adoptado hace que los sistemas se hagan mas complejos.
+A la larga este mindset adoptado hace que el software se haga mas complejo.
 
 ## &#x1F422; Programación estratégica
 
