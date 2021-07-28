@@ -63,7 +63,7 @@ Práctica, práctica y más práctica &#x1F939; no hay un atajo. Aquí algunos c
 
 ### &#x1F57A; Deja el código mejor de lo que lo encontraste
 
-Es un mantra que yo sigo, ser un mejor programador y/o diseñador de software es una mejora constante, dia a dia, si te encuentras con código que se puede mejorar, hazlo. No solo estarás mejorando el código base y lo hará cada vez más mantenible, sino también te servirá de practica en tu proceso de mejora continua.
+Es un mantra que yo sigo, ser un mejor programador y/o diseñador de software es una mejora constante, día a día, si te encuentras con código que se puede mejorar, hazlo. No solo estarás mejorando el código base y lo hará cada vez más mantenible, sino también te servirá de practica en tu proceso de mejora continua.
 
 ### &#x1F680; Diseña por lo menos 2 veces
 
