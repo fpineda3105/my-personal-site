@@ -1,6 +1,6 @@
 ---
 title: 'Programación táctica vs estratégica'
-image: "https://fpinedadev.com/images/aprendizajes_coding_interview/coding-working-workspace.jpg"
+image: "https://fpinedadev.com/images/programacion_tactica_estrategica/man_thinking.jpg"
 date: '2021-07-28'
 tags: 'diseño de software'
 type: 'normal'
