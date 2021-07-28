@@ -17,7 +17,7 @@ Alguna vez te has encontrado con código que no entiendes la razón por la cual 
 
 Puede ser algo tan simple como el nombre de una variable, el nombre de un método, como también podría ser mas complejo como el diseño de una clase o el de una API.
 
-El libro [A Philosophy of Software Design](https://www.amazon.com/-/es/John-Ousterhout/dp/1732102201/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=323K98Y2I9LGR&dchild=1&keywords=philosophy+of+software+design&qid=1627485592&sprefix=philosophy+of%2Caps%2C251&sr=8-1) de John Ousterhout, el autor expone un conjunto de buenas y malas practicas que permiten diseñar sistemas de software minimizando o aumentando la complejidad del mismo, y uno de los conceptos que me pareció muy interesante, fue la elegante definición de programación táctica y programación estratégica como un mindset, veamos de que se trata, pero primero hablemos de una palabra que mencione anteriormente **complejidad**.
+En el libro [A Philosophy of Software Design](https://www.amazon.com/-/es/John-Ousterhout/dp/1732102201/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=323K98Y2I9LGR&dchild=1&keywords=philosophy+of+software+design&qid=1627485592&sprefix=philosophy+of%2Caps%2C251&sr=8-1) de John Ousterhout, el autor expone un conjunto de buenas y malas practicas que permiten diseñar sistemas de software minimizando o aumentando la complejidad del mismo, y uno de los conceptos que me pareció muy interesante, fue la elegante definición de programación táctica y programación estratégica como un mindset, veamos de que se trata, pero primero hablemos de una palabra que mencione anteriormente **complejidad**.
 
 ## &#x1F30C; ¿Qué es complejidad?
 
