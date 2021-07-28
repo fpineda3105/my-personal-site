@@ -43,7 +43,7 @@ Se refiere al estilo de programación en el cual el foco es tener algo funcional
 
 En esta era de "agilidad" que practican muchas organizaciones también se hace presente este mindset dada la urgencia de entregar "valor" rápidamente a los usuarios.
 
-A la larga este mindset adoptado hace que el software se haga mas complejo.
+A la larga este mindset adoptado hace que el software se haga más complejo.
 
 ## &#x1F422; Programación estratégica
 
@@ -55,7 +55,7 @@ Es un mindset en el cual el programador o diseñador de la solución se da cuent
 - Facilitar a futuro la añadidura de nuevas funcionalidades.
 - ...
 
-Es una inversión de tiempo, al principio requiere de esfuerzo, pero luego se vuelve un habito y una mejora continua.
+Es una inversión de tiempo, al principio requiere de esfuerzo, pero luego se vuelve un hábito y se vuelve parte de nuestra mejora continua.
 
 ### &#x1F52E; Que puedo hacer para mejorar mi mindset?
 
